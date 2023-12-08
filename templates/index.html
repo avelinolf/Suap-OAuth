@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<body id="index">
+  <div id="page-overlay"></div>
+
+  <div id="login-container">
+    <img id="login-image" src="https://ead.ifrn.edu.br/portal/wp-content/uploads/2019/03/IFRNLOGOSPARACAMPUSHORZ_VERT.4548350b756d404498b6.png" alt="Imagem de Login" width="679" height="249" style="margin-top: 15px;">
+    <button id="login-button" onclick="redirectToLogin()">Login</button>
+  </div>
+
+  <script>
+    function redirectToLogin() {
+      window.location.href = "{{url_for('login')}}";
+    }
+  </script>
+</body>
+{% endblock %}

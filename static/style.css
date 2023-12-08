@@ -1,0 +1,44 @@
+#index {
+    background-color: black;
+}
+
+#login-container {
+    margin: auto;
+    margin-top: 250px;
+    width: 720px;
+    height: 420px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+#login-button {
+    position: relative;
+    margin-top: 75px;
+    margin-left: 245px;
+    width: 230px;
+    height: 35px;
+    background-color: green;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+}
+
+#userbody {
+    background-color: black;
+}
+
+#infoaluno {
+    margin: auto;
+    background-color: white;
+    width: 1400px;
+}
+
+#logout {
+    margin-top: 5px;
+}
+
+#boletimbody {
+    color: white;
+    background-color: black;
+}
